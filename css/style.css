@@ -64,6 +64,24 @@ h1 {
     padding-top: 5%;
 }
 
+.instal{
+    text-align: left;
+    padding-left: 10%;
+    border: 2px solid#000;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 30px;
+}
+.instal li{
+    font-size: 20px;
+    list-style: square;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.instal r{
+    padding-left: 42%;
+}
+
 /*Navigation*/
 
 .navigation {
