@@ -1,0 +1,561 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    transition: 300ms ease-out;
+}
+
+ul {
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 87%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.layout-contain{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.headerMid {
+    height: 133px;
+}
+
+.headerMid-logo,
+.headerMid-search {
+    float: left;
+}
+
+.headerMid-logo img {
+    width: 100%;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.headerMid-logo {
+    width: 30%;
+    height: 10%;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 10%;
+}
+h3{
+    text-decoration: underline;
+    margin-top: 25px;
+}
+h5{
+    color: #312f2f;
+    padding-bottom: 3%;
+    font-size: 22px;
+    margin-right: 10%;
+}
+
+.instal{
+    text-align: left;
+    padding-left: 10%;
+    border: 2px solid#000;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    background-color: #ebf2d7;
+}
+.instal li{
+    font-size: 20px;
+    list-style: square;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.instal r{
+    padding-left: 42%;
+}
+.install11{
+    padding-top: 5%;
+}
+p{
+    padding-left: 3%;
+    margin-top: 1%;
+}
+.inst{
+    border: 2px solid #28272799;
+    margin: 0.5em 0px;
+    padding: 16px;
+    border-radius: 5%;
+    padding-left: 4%;
+    margin-top: 1%;
+    margin-right: 10%;
+
+}
+/*Navigation*/
+
+.condown{
+    width: 120px;
+    height: 70px;
+    margin: auto;
+    padding-top: 30%;;
+}
+
+/*slide*/
+.slider-container{
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+    position: relative;
+}
+.slider-container .slides{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.slider-container .slides .slide{
+    min-width: 100%;
+    height: 100%;
+    
+}
+/**/
+
+
+.navigation {
+    float: left;
+    width: 100%;
+    background: #fdd504;
+    margin-bottom: 2px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .2);
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.navigation ul li {
+    padding: 0.5%;
+    width: 13%;
+    margin-left: 2.6%;
+    float: left;
+    text-align: center;
+}
+
+.navigation ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 14px;
+    color: #211f1f;
+    transition: all 500ms ease;
+    border-bottom: 8px solid #fdd504;
+}
+
+.navigation ul li a:hover {
+    border-bottom: 4px solid #f50b0b;
+    padding: -1px 0;
+}
+
+.navigation ul li a span {
+    display: table;
+    width: 100%;
+}
+
+.navigation ul li a span img {
+    display: inline-block;
+    max-height: 30px;
+}
+
+
+
+button {
+    color: white;
+    padding: 3% 4%;
+    margin: 2% 0;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    background-color: #46A049;
+    cursor: pointer;
+    width: 100%;
+    transition: 300ms;
+}
+
+button:hover {
+    background-color: #fdd504;
+    color: black;
+    transition: 300ms;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 3% 4%;
+    background-color: #f44336;
+}
+
+.cancelbtn:hover {
+    background-color: red;
+}
+
+.product-list{
+    width: 100%;
+    height: 570px;
+}
+
+
+
+ul.list-product {
+    background-color: #f0f0f0;
+    float: left;
+    width: 100%;
+    align-items: center;
+}
+
+ul.list-product li {
+    float: left;
+    width: 25%;
+}
+
+.bglipro {
+    background: #fff;
+    width: 98%;
+    height: 400px;
+    /*Cố định chiều cao sản phẩm để không bị lệch*/
+    padding: 6px;
+    margin-left: 0.6%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    transition: all 500ms ease;
+}
+
+.bglipro button {
+    width: 40%;
+    color: #fff;
+    background-color: #337ab7;
+}
+
+.bglipro button:hover {
+    background-color: #fdd504;
+    color: black;
+    transition: 300ms;
+}
+
+.bglipro:hover {
+    background: #fdd5047a;
+}
+
+.product-img img {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    transition: all 500ms ease;
+}
+
+.product-img img:hover {
+    transform: translateY(4px);
+}
+
+.product-item-info {
+    padding: 6px 10px 0;
+}
+
+.HOT {
+    color: #fff;
+    font-size: 11px;
+    padding-bottom: 6px;
+}
+
+.HOT span {
+    background-color: #f86900;
+    padding: 5px 5px 5px;
+}
+
+.NEW {
+    color: #fff;
+    font-size: 11px;
+    padding-bottom: 6px;
+}
+
+.NEW span {
+    background-color: #46de21;
+    padding: 5px 5px 5px;
+}
+
+.product-item-info h4 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: left;
+    padding: 2px 0 1px;
+}
+
+.price-box {
+    padding: 3px 0 1px;
+}
+
+.price-box span {
+    color: #c10017;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+
+#footer {
+    background: #f0f0f0;
+    height: 200px;
+    border-top: 0.2px solid #211f1f99;
+    margin-top: 40px;
+}
+
+.footer1 {
+    margin-top: 1.5%;
+    margin-left: 4%;
+    margin-bottom: 15px;
+    width: 20%;
+    padding: 0 15px;
+    float: left;
+}
+
+.footer1 .heading {
+    color: #636363;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 0 15px;
+}
+
+.content-footer li {
+    padding: 5px 0;
+    color: #636363;
+}
+
+.content-footer li a:hover {
+    color: #cecece;
+}
+
+.social-media a {
+    padding: 10px;
+    width: 56px;
+}
+
+.social-media {
+    margin-bottom: 25px;
+}
+
+.button-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+.button-ggplus {
+    color: #fff;
+    background-color: #dd4b39;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+.button-youtube {
+    color: #fff;
+    background-color: #dd4b39;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+.text-cuoi {
+    margin-left: 15px;
+}
+
+
+/*Giỏ hàng*/
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    margin-top: -8%;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.note {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    margin-bottom: -4%;
+    padding: 0.6% 1.4%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+}
+
+.hoa-don {
+    width: 100%;
+    height: 650px;
+    margin-top: 6%;
+    box-shadow: none;
+}
+
+.hoa-don h3 {
+    text-align: center;
+}
+
+.hoa-don span.ma-don-hang {
+    color: #02acea;
+    font-weight: bold;
+    margin-left: 23%;
+}
+
+.hoa-don ul {
+    margin-left: 19.5%;
+    line-height: 21px;
+    height: 152px;
+    margin-top: 8px;
+}
+
+.hoa-don ul li {
+    float: left;
+    margin-left: 12%;
+    padding-left: 4%;
+    text-align: left;
+}
+
+.phuong-thuc {
+    height: 78px;
+    text-align: left;
+    margin-left: 32%;
+    line-height: 21px;
+}
+
+.tieu-de {
+    color: #777;
+    margin-left: 6%;
+    text-align: center;
+}
+
+.chi-tiet-don-hang {
+    color: #02acea;
+    font-weight: bold;
+    margin-left: 29%;
+}
+
+.tab-san-pham {
+    text-align: left;
+    margin-left: 25.8%;
+    margin-top: 8px;
+    line-height: 28px;
+}
+
+.tab-san-pham thead tr th {
+    width: 175px;
+    background-color: #02acea;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.tab-san-pham tbody tr td {
+    background-color: #f3f2f2;
+    padding-left: 5px;
+}
+
+.btn-xac-nhan {
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+input.xac-nhan {
+    color: white;
+    padding: 1% 2%;
+    margin: 2% 0;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    background-color: #46A049;
+    cursor: pointer;
+    width: 17%;
+    margin-left: 12%;
+}
+
+input.huy-bo {
+    color: white;
+    padding: 1% 2%;
+    margin: 2% 0;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    background-color: #f44336;
+    cursor: pointer;
+    width: 9%;
+}
